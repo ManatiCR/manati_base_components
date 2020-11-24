@@ -1,0 +1,8 @@
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.one_column
+label: 'Una columna'
+targetEntityType: block_content
+cache: true

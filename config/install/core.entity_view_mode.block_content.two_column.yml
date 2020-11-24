@@ -1,0 +1,8 @@
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.two_column
+label: 'Dos columnas'
+targetEntityType: block_content
+cache: true

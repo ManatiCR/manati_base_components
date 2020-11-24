@@ -13,19 +13,26 @@ bundle: accordion
 mode: default
 content:
   field_collapsible_item_unlimited:
-    type: entity_reference_paragraphs
-    weight: 28
+    type: paragraphs
+    weight: 2
     settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
+      title: 'elemento plegable'
+      title_plural: 'elementos plegables'
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: collapsible_item
+      features:
+        add_above: '0'
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
     third_party_settings: {  }
     region: content
   field_title:
-    weight: 26
+    weight: 0
     settings:
       size: 60
       placeholder: ''
@@ -33,24 +40,22 @@ content:
     type: string_textfield
     region: content
   field_title_heading_level:
-    weight: 27
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
-  info:
-    type: string_textfield
-    weight: -5
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 2
+    weight: 3
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
-hidden: {  }
+  translation:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  info: true
