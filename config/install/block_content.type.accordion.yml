@@ -1,0 +1,6 @@
+status: true
+dependencies: {  }
+id: accordion
+label: Acordeón
+revision: 0
+description: 'Bloque utilizado por Layout Builder para agregar un componente de Acordeón.'

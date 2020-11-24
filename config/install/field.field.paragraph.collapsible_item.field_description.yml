@@ -1,0 +1,19 @@
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.collapsible_item
+  module:
+    - text
+id: paragraph.collapsible_item.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: collapsible_item
+label: Descripción
+description: 'Descripción del elemento plegable.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
