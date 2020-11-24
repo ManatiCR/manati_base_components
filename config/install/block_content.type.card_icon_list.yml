@@ -1,0 +1,6 @@
+status: true
+dependencies: {  }
+id: card_icon_list
+label: 'Lista de fichas con icono'
+revision: 0
+description: 'Bloque utilizado por Layout Builder para agregar un componente de Lista de fichas con icono.'

@@ -1,0 +1,8 @@
+status: true
+dependencies: {  }
+id: card_icon
+label: 'Ficha con icono'
+icon_uuid: null
+icon_default: null
+description: 'Permite agregar información en formato de ficha con icono.'
+behavior_plugins: {  }
