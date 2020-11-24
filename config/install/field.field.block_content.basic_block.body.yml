@@ -9,7 +9,7 @@ id: block_content.basic_block.body
 field_name: body
 entity_type: block_content
 bundle: basic_block
-label: Body
+label: Descripción
 description: ''
 required: false
 translatable: true
