@@ -9,3 +9,11 @@ The components included are:
 - basic block
 - heading
 - button list
+- card icon list (Steps)
+
+Recomendations:
+- Use it along the manati base config module.
+
+Requirements:
+- media entity called: image
+- media entity called: icon
