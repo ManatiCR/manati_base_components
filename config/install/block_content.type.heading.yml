@@ -3,4 +3,4 @@ dependencies: {  }
 id: heading
 label: Encabezado
 revision: 0
-description: ''
+description: 'Bloque utilizado por Layout Builder para agregar un componente de Encabezado.'
