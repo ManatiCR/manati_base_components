@@ -1,0 +1,8 @@
+status: true
+dependencies: {  }
+id: file
+label: Archivo
+icon_uuid: null
+icon_default: null
+description: 'Permite agregar información en formato de documento.'
+behavior_plugins: {  }

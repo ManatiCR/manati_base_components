@@ -1,0 +1,10 @@
+name: Manati base components
+type: module
+description: This module provides base components config.
+package: MANATI
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - entity_reference_revisions:entity_reference_revisions
+  - paragraphs:paragraphs
+

@@ -1,0 +1,8 @@
+status: true
+dependencies: {  }
+id: link
+label: Enlace
+icon_uuid: null
+icon_default: null
+description: 'Permite agregar información en formato de enlace.'
+behavior_plugins: {  }
