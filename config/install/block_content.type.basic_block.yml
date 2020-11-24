@@ -1,0 +1,6 @@
+status: true
+dependencies: {  }
+id: basic_block
+label: 'Bloque básico'
+revision: 0
+description: 'Bloque utilizado por Layout Builder para agregar un componente de Bloque básico.'
