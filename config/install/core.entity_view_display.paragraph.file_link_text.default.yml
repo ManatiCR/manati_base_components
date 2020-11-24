@@ -1,0 +1,32 @@
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.file_link_text.field_file_link
+    - field.field.paragraph.file_link_text.field_title
+    - paragraphs.paragraphs_type.file_link_text
+  module:
+    - entity_reference_revisions
+id: paragraph.file_link_text.default
+targetEntityType: paragraph
+bundle: file_link_text
+mode: default
+content:
+  field_file_link:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

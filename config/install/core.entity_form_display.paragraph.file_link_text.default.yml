@@ -1,0 +1,36 @@
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.file_link_text.field_file_link
+    - field.field.paragraph.file_link_text.field_title
+    - paragraphs.paragraphs_type.file_link_text
+  module:
+    - paragraphs
+id: paragraph.file_link_text.default
+targetEntityType: paragraph
+bundle: file_link_text
+mode: default
+content:
+  field_file_link:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
