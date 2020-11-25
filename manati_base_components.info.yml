@@ -9,4 +9,4 @@ dependencies:
   - paragraphs:paragraphs
   - drupal:block
   - drupal:block_content
-
+  - media_library:media_library
