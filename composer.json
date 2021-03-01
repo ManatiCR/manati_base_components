@@ -1,0 +1,19 @@
+{
+  "name": "manaticr/manati-base-components",
+  "type": "drupal-module",
+  "description": "Provides default base block components.",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Manati",
+      "email": "info@estudiomanati.com"
+    },
+    {
+      "name": "Rodrigo Espinoza Brenes",
+      "email": "espinoza.brenes.rodrigo@gmail.com"
+    }
+  ],
+  "require": {
+    "manaticr/manati_base_config": "^1.0.0"
+  }
+}
